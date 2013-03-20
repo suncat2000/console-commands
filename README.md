@@ -1,4 +1,6 @@
-console-commands
+Console commands tool by PHP
 ================
 
-Console commands by PHP
+Tool to quickly write console commands in PHP.
+It is based on a package `symfony/console`.
+
