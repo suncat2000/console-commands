@@ -1,0 +1,11 @@
+{
+    "name": "suncat/console-commands",
+    "description": "Console commands by PHP",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "suncat/symfony-console-extra": "dev-master"
+    }
+}
