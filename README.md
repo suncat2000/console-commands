@@ -64,6 +64,14 @@ Available commands:
     list       Lists commands
 ````
 
+Execute your command `acme`:
+
+````
+$ app/console acme
+
+Execute
+
+````
 Now you can change the logic of your command class on your own.
 
 If the name of your command class will be in CamelCase you get `camel:case` command.
