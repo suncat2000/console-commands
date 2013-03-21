@@ -1,6 +1,12 @@
 {
     "name": "suncat/console-commands",
-    "description": "Console commands by PHP",
+    "description": "Console commands in PHP",
+    "authors": [
+        {
+            "name": "Nikolay Ivlev",
+            "email": "nikolay.kotovsky@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-0": { "": "src/" }
     },
