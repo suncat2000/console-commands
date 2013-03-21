@@ -2,7 +2,7 @@ Console commands tool in PHP
 ================
 
 Tool to quickly write console commands in PHP.
-It is based on a package `symfony/console`.
+It is based on a [Symfony Console Component](http://symfony.com/doc/master/components/console/introduction.html).
 
 Depends:
 * [symfony/console](https://github.com/symfony/Console)
