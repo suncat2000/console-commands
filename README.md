@@ -4,6 +4,11 @@ Console commands tool in PHP
 Tool to quickly write console commands in PHP.
 It is based on a package `symfony/console`.
 
+Depends:
+    - [symfony/console](https://github.com/symfony/Console)
+    - [symfony/finder](https://github.com/symfony/Finder)
+    - [suncat/symfony-console-extra](https://github.com/suncat2000/symfony-console-extra)
+
 Installation
 ================
 
