@@ -6,6 +6,11 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "suncat/symfony-console-extra": "dev-master"
+        "suncat/symfony-console-extra": "1.0.*@dev"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }
