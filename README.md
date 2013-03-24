@@ -36,6 +36,7 @@ Available commands:
     generate   Generate skeleton class for new command
     help       Displays help for a command
     list       Lists commands
+    test       Command test
 ````
 
 Generate skeleton command class:
@@ -60,6 +61,7 @@ Available commands:
     generate   Generate skeleton class for new command
     help       Displays help for a command
     list       Lists commands
+    test       Command test
 ````
 
 Execute your command `acme`:
