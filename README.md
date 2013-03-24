@@ -12,13 +12,9 @@ Depends:
 Installation
 ================
 
-Run command:
+Create project with [Composer](http://getcomposer.org/doc/03-cli.md#create-project):
 ````
-$ composer create-project -s dev suncat/console-commands ./cmd
-````
-or
-````
-$ composer create-project suncat/console-commands ./cmd 1.0.x-dev
+$ composer create-project suncat/console-commands ./cmd
 ````
 
 go to the `cmd` directory with project:
@@ -34,9 +30,7 @@ Usage
 Look at list available commands
 ````
 $ app/console list
-````
 
-````
 ...
 Available commands:
     generate   Generate skeleton class for new command
@@ -59,8 +53,7 @@ Generated new command class to "./cmd/src/Command/AcmeCommand.php"
 Look at list available commands
 ````
 $ app/console list
-````
-````
+
 ...
 Available commands:
     acme       Command acme
@@ -73,9 +66,7 @@ Execute your command `acme`:
 
 ````
 $ app/console acme
-
 Execute
-
 ````
 Now you can change the logic of your command class on your own.
 
