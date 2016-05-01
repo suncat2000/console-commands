@@ -7,7 +7,6 @@ It is based on a [Symfony Console Component](http://symfony.com/doc/master/compo
 Depends:
 * [symfony/console](https://github.com/symfony/Console)
 * [symfony/finder](https://github.com/symfony/Finder)
-* [suncat/symfony-console-extra](https://github.com/suncat2000/symfony-console-extra)
 
 Installation
 ================
