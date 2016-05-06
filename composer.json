@@ -7,16 +7,18 @@
             "email": "nikolay.kotovsky@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-4": { "": "src/" }
     },
     "require": {
-        "php": ">=5.3.3",
-        "suncat/symfony-console-extra": "1.0.*@dev"
+        "php": ">=5.4",
+        "symfony/console": "~2.2",
+        "symfony/finder": "~2.2"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "2.0.x"
         }
     }
 }
